@@ -12,6 +12,11 @@
 }
 
 @media (max-width: 767px){
+    
+.hidden-mobile{
+    display: none;
+}
+    
 .navbar-custom.affix {
     background-color: rgb(65, 112, 128);
 }
@@ -136,4 +141,31 @@ section h3.section-subheading{
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color:white;
     text-transform: none;
+}
+
+section#contact ::-webkit-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgb(182, 189, 198);
+}
+section#contact :-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgb(182, 189, 198);
+}
+section#contact ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgb(182, 189, 198);
+}
+section#contact :-ms-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgb(182, 189, 198);
 }
